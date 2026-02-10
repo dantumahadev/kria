@@ -1,8 +1,8 @@
 import React from 'react';
 
 const GeneralMode = ({ mode, onBack }) => {
-  const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=918738030604&text=hello&type=phone_number&app_absent=0";
-  const PARALYSIS_URL = "https://ai.studio/apps/drive/1ladhC0f6mc-QOZ8_z_f1VCURepOe4gUP?fullscreenApplet=true";
+  const WHATSAPP_URL = "ENTER YOUR WEBHOOK";
+  const PARALYSIS_URL = "ENTER YOUR WEBHOOK";
 
   const handleRedirect = () => {
     if (mode === 'paralysis') {
@@ -117,3 +117,4 @@ const GeneralMode = ({ mode, onBack }) => {
 };
 
 export default GeneralMode;
+
